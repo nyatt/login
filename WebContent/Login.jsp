@@ -11,7 +11,7 @@
 <form  action="Servlet" method="post" >
 	<label for="txtLoging">login:</label>
 	<input id="txtLoging" name="txtLoging" type="text" value="<%=session.getAttribute("login")%>"/><br/>
-	<label for="txtPassword">Password:</label>
+	<label for="txtPassword">Password:</label> 
 	<input name="txtPassword" type="text" value="<%=session.getAttribute("password")%>"/><br/>
 	<br/>
 	<input name="btnConnect" type="submit"/><br/>
