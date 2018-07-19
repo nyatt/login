@@ -1,0 +1,10 @@
+@CHARSET "ISO-8859-1";
+p{
+	color: blue;
+}
+form {
+	display: inline-block;
+	width: 100px;
+    height: 100px;
+    padding: 5px;  
+}
